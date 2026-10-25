@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Autori System — Sistema temporariamente indisponível</title>
+<meta name="description" content="O Autori System está temporariamente fora do ar. Os dados do sistema estão preservados.">
+<meta name="robots" content="noindex">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⏸</text></svg>">
+<style>
+  :root {
+    --primary:  #036064;
+    --accent:   #1E5C7B;
+    --text:     #214653;
+    --mute:     #5E8490;
+    --border:   #C5DCE0;
+    --bg:       #E8F4F5;
+    --surface:  #FFFFFF;
+    --surf-alt: #EDF5F5;
+    --warn-bg:  #FEF3C7;
+    --warn-fg:  #92400E;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    background: var(--bg);
+    color: var(--text);
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.55;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 560px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    box-shadow: 0 8px 24px rgba(33, 70, 83, 0.10);
+    padding: 44px 40px 32px;
+    text-align: center;
+  }
+
+  .brand {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .14em;
+    text-transform: uppercase;
+    color: var(--primary);
+    margin-bottom: 28px;
+  }
+
+  .icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    background: var(--surf-alt);
+    border: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icon svg { width: 30px; height: 30px; stroke: var(--primary); }
+
+  .chip {
+    display: inline-block;
+    padding: 4px 14px;
+    border-radius: 999px;
+    background: var(--warn-bg);
+    color: var(--warn-fg);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .03em;
+    margin-bottom: 18px;
+  }
+
+  h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--primary);
+    letter-spacing: -0.01em;
+    margin: 0 0 14px;
+    line-height: 1.25;
+  }
+
+  p {
+    font-size: 15px;
+    color: var(--text);
+    margin: 0 0 14px;
+  }
+  p.muted { color: var(--mute); font-size: 14px; }
+
+  .divider {
+    height: 1px;
+    border: 0;
+    margin: 28px 0 22px;
+    background: linear-gradient(90deg, transparent, var(--border) 15%, var(--border) 85%, transparent);
+  }
+
+  /* ───────────────────────────────────────────────────────────────
+     CONTATO — edite o bloco abaixo antes de publicar.
+     Troque o texto e o link. Para remover a seção inteira,
+     apague da linha <div class="contact"> até o </div> final.
+     ─────────────────────────────────────────────────────────────── */
+  .contact {
+    background: var(--surf-alt);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 18px 20px;
+    text-align: left;
+  }
+  .contact-label {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    color: var(--mute);
+    margin-bottom: 6px;
+  }
+  .contact p { font-size: 14px; margin: 0; }
+  .contact a { color: var(--accent); font-weight: 600; text-decoration: none; }
+  .contact a:hover { text-decoration: underline; }
+
+  footer {
+    margin-top: 26px;
+    font-size: 12px;
+    color: var(--mute);
+  }
+
+  @media (max-width: 480px) {
+    .card { padding: 32px 24px 26px; border-radius: 12px; }
+    h1 { font-size: 20px; }
+    p { font-size: 14px; }
+  }
+</style>
+</head>
+<body>
+
+  <main class="card">
+    <div class="brand">Autori System</div>
+
+    <div class="icon" aria-hidden="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"
+           stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9"></circle>
+        <path d="M12 7v5l3 2"></path>
+      </svg>
+    </div>
+
+    <span class="chip">Fora do ar</span>
+
+    <h1>Sistema temporariamente indisponível</h1>
+
+    <p>
+      O acesso ao Autori está suspenso no momento. Não há previsão de retorno
+      divulgada até aqui.
+    </p>
+    <p class="muted">
+      As informações do sistema seguem preservadas — nada foi perdido.
+    </p>
+
+    <hr class="divider">
+
+    <!-- CONTATO — edite este bloco antes de publicar -->
+    <div class="contact">
+      <span class="contact-label">Precisa de atendimento?</span>
+      <p>
+        Para assuntos de autorização ou faturamento, fale com a equipe pelos
+        canais de sempre:
+        <a href="mailto:jeferson_hsfa@hotmail.com">jeferson_hsfa@hotmail.com</a>.
+      </p>
+    </div>
+    <!-- fim do bloco de contato -->
+
+    <footer>Autori System</footer>
+  </main>
+
+</body>
+</html>
